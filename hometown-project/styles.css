@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #0d1b2a;
+}
+
+.top-banner {
+    background-image: url("https://media.istockphoto.com/id/1481847661/photo/edinburgh-skyline-at-sunset.jpg?s=612x612&w=0&k=20&c=4otY1Kh8Vu3SOOBVx-AU-tGnWb30i90y6QEczYHYDGw=");
+    background-size: cover;
+    height: 100px;
+    margin-bottom: -20px;
+    border-radius: 5% 5% 0% 0%;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #e0e1dd;
+        text-shadow: -1px 1px 5px #0d1b2a;
+}
+
+.banner-heading {
+    background: #778da9;
+    display:block;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.banner-subheading {
+    background: #778da9;
+    display:inline-block;
+    padding: 10px 10px;
+    border-radius: 4px; 
+    margin-top: -5px;
+    color: #e0e1dd;
+}
+
+.main-body {
+    background: linear-gradient(#778da9,#e0e1dd);
+    margin-top: 0px;
+    text-align: center;
+    align-content: center;
+    margin-top: 0px;
+    font-size: 15px; 
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+#Edinburgh-container {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.castle-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: -15px;
+    border: 1px solid #0d1b2a;
+}
+
+.castle-img:hover {
+    opacity: 70%;
+}
+
+#Calton-container {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.calton-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: 0%;
+    margin-bottom: -15px; 
+    border: 1px solid #0d1b2a;
+}
+
+.calton-img:hover {
+    opacity: 70%;
+}
+
+#Arthurs-container {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.arthurs-seat-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: -15px; 
+    border: 1px solid #0d1b2a;   
+}
+
+.arthurs-seat-img:hover {
+    opacity: 70%;
+}
+
+.main-heading {
+    padding: 15px 0 0 0;
+}
+
+.guide-section {
+    height: 200px;
+    border-radius: 0% 0% 5% 5%;
+    background: #e0e1dd;
+    margin-top: -28px
+}
+
+#card {
+    background-color: #778da9;
+    height: 150px;
+    width: 250px;
+    display: block;
+    margin: 28px auto;
+    border-bottom: 5px solid #0d1b2a;
+    border-top: 5px solid #0d1b2a;
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid #0d1b2a;
+}
